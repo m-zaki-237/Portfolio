@@ -13,8 +13,8 @@ const Skills = () => {
           Skills
         </motion.h2>
 
-        <div className="mb-8 flex flex-wrap lg:justify-center">
-          <div className="relative w-full max-w-md p-6 rounded-2xl border-4 border-neutral-800">
+        <div className="mb-8 flex justify-center">
+          <div className="w-full max-w-md p-6 rounded-2xl border-4 border-neutral-800">
             <SkillBar skill="HTML" percentage="90%" delay={0} />
             <SkillBar skill="CSS" percentage="75%" delay={0.1} />
             <SkillBar skill="Javascript" percentage="82%" delay={0.2} />
