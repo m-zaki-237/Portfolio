@@ -26,7 +26,7 @@ const Cursor = () => {
 
     return (
         <>
-            <motion.div className='cursor z-30 fixed top-0 left-0 w-10 h-10 border border-white rounded-full pointer-events-none transform -translate-x-1/2 -translate-y-1/2 will-change-transform hidden md:block' ref={cursorRef}></motion.div>
+            <motion.div className='cursor z-30 fixed top-0 left-0 w-10 h-10 border border-white rounded-full pointer-events-none transform -translate-x-1/2 -translate-y-1/2 will-change-transform hidden lg:block' ref={cursorRef}></motion.div>
         </>
     );
 };
