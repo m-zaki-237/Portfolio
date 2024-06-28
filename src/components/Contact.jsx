@@ -1,9 +1,10 @@
+import React from 'react';
 import { motion } from 'framer-motion';
 
 const Contact = () => {
   return (
     <>
-      <div className=' border-b border-neutral-300 dark:border-neutral-900 pb-10'>
+      <div className='border-b border-neutral-300 dark:border-neutral-900 pb-10'>
         <motion.h2
           whileInView={{ opacity: 1, y: 0 }}
           initial={{ opacity: 0, y: -100 }}
@@ -27,9 +28,11 @@ const Contact = () => {
             transition={{ duration: 1 }}
             className='my-4 text-neutral-700 dark:text-neutral-400'
           >
-            +92 326 5528785
+            <a href="tel:+923265528785" className='text-neutral-700 dark:text-neutral-400'>
+              +92 326 5528785
+            </a>
           </motion.p> 
-          <a href="#" className='border-b border-neutral-900 dark:border-neutral-300 text-neutral-700 dark:text-neutral-400'>
+          <a href="mailto:zakibhai237@gmail.com" className='border-b border-neutral-900 dark:border-neutral-300 text-neutral-700 dark:text-neutral-400'>
             zakibhai237@gmail.com
           </a>
         </div>

@@ -25,7 +25,7 @@ function App() {
   };
 
   return (
-    <div className={`overflow-x-hidden antialiased selection:bg-cyan-300 selection:text-cya ${theme === 'dark' ? 'bg-neutral-950 text-neutral-300' : 'bg-white text-neutral-900'}`}>
+    <div className={`overflow-x-hidden antialiased selection:bg-cyan-300 selection:text-cyan-900 ${theme === 'dark' ? 'bg-neutral-950 text-neutral-300' : 'bg-white text-neutral-900'}`}>
       <div className='container mx-auto px-8'>
         <Cursor />
         <Navbar handleMoonClick={handleMoonClick} theme={theme} />
