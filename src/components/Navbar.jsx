@@ -5,7 +5,7 @@ import moonImage from '../assets/Theme/moon.png';
 
 const Navbar = ({ handleMoonClick, theme }) => {
   return (
-    <nav className="mb-20 flex items-center justify-between py-6">
+    <nav className=" mb-20 flex items-center justify-between py-6">
       <div className="flex flex-shrink-0 items-center">
         {theme === 'dark' ? (
           <img src={sunImage} alt="Sun" className="h-8 w-8 cursor-pointer" onClick={handleMoonClick} />
@@ -24,3 +24,4 @@ const Navbar = ({ handleMoonClick, theme }) => {
 };
 
 export default Navbar;
+
