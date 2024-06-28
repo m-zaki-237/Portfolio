@@ -11,10 +11,14 @@ import Projects from './components/Projects';
 import Contact from './components/Contact';
 
 function App() {
-  const [theme, setTheme] = useState('dark');
+  const [theme, setTheme] = useState(() => {
+    const savedTheme = localStorage.getItem('theme');
+    return savedTheme || 'dark';
+  });
 
   useEffect(() => {
     document.documentElement.classList.add(theme);
+    localStorage.setItem('theme', theme);
     return () => {
       document.documentElement.classList.remove(theme);
     };
