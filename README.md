@@ -2,8 +2,6 @@
 
 A personal portfolio website built with React, Vite, and Tailwind CSS, featuring smooth Framer Motion animations, a custom cursor, and a light/dark theme toggle.
 
-**Live Demo:** [re-birth-xi.vercel.app](https://re-birth-xi.vercel.app)
-
 ## Tech Stack
 
 - **React 19** — UI library
