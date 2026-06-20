@@ -1,16 +1,93 @@
-# React + Vite
+# Portfolio — Muhammad Zakria
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A personal portfolio website built with React, Vite, and Tailwind CSS, featuring smooth Framer Motion animations, a custom cursor, and a light/dark theme toggle.
 
-Currently, two official plugins are available:
+**Live Demo:** [re-birth-xi.vercel.app](https://re-birth-xi.vercel.app)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Tech Stack
 
-## React Compiler
+- **React 19** — UI library
+- **Vite** — build tool and dev server
+- **Tailwind CSS v4** — utility-first styling
+- **Framer Motion** — animations and transitions
+- **React Icons** — technology and social icons
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Features
 
-## Expanding the ESLint configuration
+- 🌗 Light/dark theme toggle with persisted preference
+- ✨ Animated section reveals on scroll (Framer Motion)
+- 🖱️ Custom animated cursor (desktop only)
+- 📱 Fully responsive layout
+- 🧩 Sections: Hero, About, Technologies, Experience, Projects, Skills, Contact
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Sections
+
+| Section | Description |
+|---|---|
+| **Hero** | Introduction with animated typing effect |
+| **About** | Brief bio and photo |
+| **Technologies** | Floating icon grid of core tech stack |
+| **Experience** | Internship and training history |
+| **Projects** | Featured projects with live/repo links |
+| **Skills** | Categorized skill bars (Frontend / Backend / Other) |
+| **Contact** | Location, phone, and email |
+
+## Getting Started
+
+### Prerequisites
+
+- Node.js (v20.19+ or v22.12+)
+- npm
+
+### Installation
+
+```bash
+git clone https://github.com/m-zaki-237/portfolio.git
+cd portfolio
+npm install
+```
+
+### Development
+
+```bash
+npm run dev
+```
+
+### Build for Production
+
+```bash
+npm run build
+npm run preview
+```
+
+### Lint
+
+```bash
+npm run lint
+```
+
+## Project Structure
+
+```
+portfolio/
+├── public/
+├── src/
+│   ├── assets/           # Images and SVGs
+│   ├── components/       # React components (Hero, About, Projects, etc.)
+│   ├── constants/        # Static content (projects, experience, bio text)
+│   ├── App.jsx
+│   ├── index.css
+│   └── main.jsx
+├── vite.config.js
+└── package.json
+```
+
+## Connect
+
+- **GitHub:** [m-zaki-237](https://github.com/m-zaki-237)
+- **LinkedIn:** [muhammad-zakria](https://www.linkedin.com/in/muhammad-zakria-7a8402330/)
+- **Email:** muhammadzakriaawan237@gmail.com
+
+## License
+
+This project is open source and available for personal reference.
