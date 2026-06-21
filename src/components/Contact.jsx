@@ -31,7 +31,7 @@ const Contact = () => {
               +92 335 6662958
             </a>
           </motion.p> 
-          <a href="mailto:zakibhai237@gmail.com" className='border-b border-neutral-900 dark:border-neutral-300 text-neutral-700 dark:text-neutral-400'>
+          <a href="mailto:muhammadzakriaawan237@gmail.com" className='border-b border-neutral-900 dark:border-neutral-300 text-neutral-700 dark:text-neutral-400'>
             muhammadzakriaawan237@gmail.com
           </a>
         </div>
