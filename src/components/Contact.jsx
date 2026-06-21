@@ -40,7 +40,7 @@ const Contact = () => {
             rel="noopener noreferrer"
             className="border-b border-neutral-900 dark:border-neutral-300 text-neutral-700 dark:text-neutral-400"
           >
-            Send Email
+            muhammadzakriaawan237@gmail.com
           </a>
         </div>
       </div>
