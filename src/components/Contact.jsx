@@ -1,6 +1,16 @@
 import { motion } from "framer-motion";
 
 const Contact = () => {
+  const handleEmailClick = () => {
+    window.location.href = "mailto:muhammadzakriaawan237@gmail.com";
+
+    setTimeout(() => {
+      window.open(
+        "https://mail.google.com/mail/?view=cm&fs=1&to=muhammadzakriaawan237@gmail.com",
+        "_blank",
+      );
+    }, 800);
+  };
   return (
     <>
       <div className="border-b border-neutral-300 dark:border-neutral-900 pb-10">
@@ -34,14 +44,12 @@ const Contact = () => {
               +92 335 6662958
             </a>
           </motion.p>
-          <a
-            href="https://mail.google.com/mail/?view=cm&fs=1&to=muhammadzakriaawan237@gmail.com"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="border-b border-neutral-900 dark:border-neutral-300 text-neutral-700 dark:text-neutral-400"
+          <button
+            onClick={handleEmailClick}
+            className="underline border-b border-neutral-900 dark:border-neutral-300"
           >
             muhammadzakriaawan237@gmail.com
-          </a>
+          </button>
         </div>
       </div>
     </>
